@@ -1,0 +1,31 @@
+body {
+position: relative;
+Width: 1920px;
+Height: 1080px;
+background-color: #FAFAFA;
+
+}
+.border {
+    position: absolute;
+    width: 1820px;
+    height: 960px;
+    margin: 71px 50px;
+    margin-bottom: 71px;
+    margin-right: 50px;
+    border: 0.5px solid #BDBDBD;
+}
+.menu nav {
+    width: 30px;
+    height: 30px;
+    margin-left: 90px;
+    margin-top: 45px;
+}
+.logo img{
+    position: absolute;
+    width: 242px;
+    height: 85.68px;
+    margin-left: 196px;
+    margin-top: 45px;
+    
+}
+
