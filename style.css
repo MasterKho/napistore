@@ -7,11 +7,10 @@ background-color: #FAFAFA;
 }
 .border {
     position: absolute;
-    width: 1930px;
+    width: 2030px;
     height: 960px;
-    margin: 61px 50px;
-    margin-bottom: 71px;
-    margin-right: 50px;
+    margin: 61px;
+    margin-bottom: 81px;
     border: 0.5px solid #BDBDBD;
 }
 .menu{
@@ -131,6 +130,7 @@ color: #000000;
 }
 
 .glass {
+    z-index: 1;
     position: absolute;
     width: 320px;
     height: 553px;
@@ -155,13 +155,14 @@ text-transform: uppercase;
 color: #000000;
 }
 
+
 .image-man {
  
     position: absolute;
     width: 685px;
     height: 775px;
     margin-left: 1300px;
+    
     margin-top: 159px;
     opacity: 0.8;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
