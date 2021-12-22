@@ -43,6 +43,7 @@ html, body{
   }
 
 .header__text_way{
+  text-decoration: none;
  position: absolute;
 width: 257px;
 height: 41px;
