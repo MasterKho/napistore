@@ -1,0 +1,35 @@
+.welcome pre {
+    position: absolute;
+    width: 500px;
+    height: 82px;
+    left: 30px;
+    top: 20px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.input__tel{
+position: absolute;
+width: 300px;
+height: 40px;
+left: 49px;
+top: 149px;
+border: 1px solid #A8A7A7;
+box-sizing: border-box;
+border-radius: 50px;
+}
+
+.input__button{
+    position: absolute;
+     width: 170px;
+     height: 40px;
+     left: 360px;
+     top: 150px;
+     background: #E53935;
+     border-radius: 50px;
+}
