@@ -1,0 +1,24 @@
+.logo1{
+    position: absolute;
+    width: 202px;
+    height: 85.68px;
+    left: 86px;
+    top: 145px;
+    
+}
+/**
+style="position: absolute;
+width: 242px;
+height: 85.68px;
+left: 60px;
+top: 62px;" **/
+
+.about {
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    text-transform: none;
+    left: 62px;
+    top: 280px;
+    color: black;
+}
