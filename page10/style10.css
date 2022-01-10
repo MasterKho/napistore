@@ -1,0 +1,88 @@
+body {
+position: relative;
+width: 1920px;
+height: 1080px;
+background: #FAFAFA;
+}
+.header__menu {
+position: absolute;
+width: 30px;
+height: 30px;
+left: 80px;
+top: -14px;
+}
+
+.border {
+    position: absolute;
+    width: 1820px; height: 960px;
+    left: 50px; top: 70px;
+    border: 0.5px solid #BDBDBD;
+}
+
+.header__logo {
+border: none;
+position: absolute;
+width: 242px;
+height: 85.68px;
+left: 194px;
+top: -25px;
+}
+.header__title_pay{
+    position: absolute;
+           width: 79px; height: 41px;
+           left: 547px; top: -50px;
+           font-family: Open Sans Condensed;
+           font-style: normal;
+           font-weight: 300; font-size: 30px;
+           line-height: 41px;
+           text-transform: uppercase;
+           color: #000000;
+}
+.header__title_delivery {
+position: absolute;
+width: 102px;
+height: 41px;
+left: 720px;
+top: -50px;
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 41px;
+text-transform: uppercase;
+color: #000000;
+}
+
+.text {
+    position: absolute;
+width: 582px;
+height: 156px;
+left: 194px;
+top: 233px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+}
+.jin {
+    position: absolute;
+    width: 85px; height: 40px;
+    left: 817px;
+    top: 241px;
+    background-color: white;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.vodka {
+position: absolute;
+width: 85px;
+height: 40px;
+left: 917px;
+top: 241px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 30px;
+}

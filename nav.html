@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #070000;
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #140000;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+position: relative;
+width: 30px;
+height: 30px;
+left: 80px;
+top: 35px;
+font-size: 20px;
+cursor: pointer;
+background-color: rgb(252, 252, 252);
+color: rgb(158, 152, 152);
+padding: 10px 15px;
+border: none;
+}
+/*
+.openbtn:hover {
+  background-color: rgb(252, 252, 252);
+}
+*/
+#main {
+  transition: margin-left .2s;
+  padding: 16px;
+}
+
+/* На небольших экранах, где высота меньше 450px, измените стиль sidenav (меньше отступов и меньший размер шрифта) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body >
+
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  
+    <a href="tryhow_js_collapse_sidebar.php">О нас</a>
+  
+  
+  <a href="tryhow_js_collapse_sidebar.php">Бары</a>
+  
+    <a href="tryhow_js_collapse_sidebar.php">Московское ш. 4д</a>
+  
+  
+  <a href="file:///C:/Users/ramon/OneDrive/Рабочий%20стол/napistore/page4/index4.html">Куйбышева 78</a>
+  <a href="tryhow_js_collapse_sidebar.php">Дегустация</a>
+  <a href="tryhow_js_collapse_sidebar.php">Shop</a>
+  <a href="tryhow_js_collapse_sidebar.php">Заготовки</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>  
+ 
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "300px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html>
+

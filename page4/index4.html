@@ -8,21 +8,122 @@
     <title>Napi:Bar Store</title>
     <style>
         body {
+       
          background-image: url("img4/fon.jpg");
         }
        </style>
 </head>
 <body>
-    
-    <header class="header">
-        
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div>
+            <a>
+            <img src="img4/Group 62.png" alt="logo" style="position: absolute;
+            width: 242px;
+            height: 85.68px;
+            left: 60px;
+            top: 62px;">
+            </a>
+         </div>
+          <a style="text-decoration: none;
+          position: absolute;font-size: 30px;
+          text-transform: none;left: 50px;
+          top: 280px;color: black;" 
+           href="file:///C:/Users/ramon/OneDrive/Рабочий%20стол/napistore/page2/index1.html">О нас</a>
 
-        <div class="header_rect">
-            <img src="img4/Rectangle 21 (1).png">
-        </div>
+        <a style="position: absolute;
+        width: 54px; height: 41px;
+        left: 50px; top: 327px; font-family: Open Sans Condensed;
+        font-style: normal; font-weight: 300;
+        font-size: 30px; line-height: 41px;
+        color: #BDBDBD;">Бары</a>
+
+        <a><img src="img4/Line 2.png" style="position: absolute;
+            width: 108px; height: 12.5px;
+            left: 30px; top: 445px;
+            border: 0.5px solid #BDBDBD;
+            transform: rotate(90deg);"></a>
+
+          <a style="position: absolute;
+          text-decoration: none;
+          width: 250px; height: 41px;
+          left: 100px; top: 400px;
+          font-family: Open Sans Condensed;
+          font-style: normal; font-weight: 300;
+          font-size: 30px;line-height: 41px;
+          color: #000000;"   
+          href="file:///C:/Users/ramon/OneDrive/Рабочий%20стол/napistore/page3/index3.html">
+          Московское ш. 4д</a>
+
+        <a style="position: absolute;
+        text-decoration: none;
+        width: 250px; height: 41px;
+        left: 100px; top: 470px;
+        font-family: Open Sans Condensed;
+        font-style: normal; font-weight: 300;
+        font-size: 30px; line-height: 41px;
+        color: #000000;"
+         href="file:///C:/Users/ramon/OneDrive/Рабочий%20стол/napistore/page4/index4.html">Куйбышева 78</a>
+       
+       <a style="position: absolute;
+        text-decoration: none;
+        width: 110px; height: 41px;
+        left: 50px; top: 570px;
+        font-family: Open Sans Condensed;
+        font-style: normal; font-weight: 300;
+        font-size: 30px;line-height: 41px;
+        color: #000000;" 
+        href="file:///C:/Users/ramon/OneDrive/Рабочий%20стол/napistore/page7/index7.html">Дегустация</a>
+
+        <a style="position: absolute;
+        width: 51px; height: 41px;
+        left: 50px; top: 640px;
+        font-family: Open Sans Condensed;
+        font-style: normal; font-weight: 300;
+        font-size: 30px; line-height: 41px;
+        color: #BDBDBD;">Shop</a>
+
+<a>
+    <img style="position: absolute;
+    width: 46px; height: 12.5px;
+    left: 60px; top: 705px;
+    border: 0.5px solid #BDBDBD;
+    transform: rotate(90deg);"  src="img4/Line 3.png">
+</a>
+        <a style="position: absolute;
+        width: 100px; height: 41px;
+        left: 95px; top: 705px;
+        font-family: Open Sans Condensed;
+        font-style: normal; font-weight: 300;
+        font-size: 30px; line-height: 41px;
+        color: #000000;">Заготовки</a>
+      </div>
+    
+      <header class="header">   
+      <div class="header_rect">
+          <img src="img4/Rectangle 21 (1).png">
+      </div>
+
+        <div id="main">
         <nav class="header__menu">
-            <img src="img4/menu (3).png" alt="menu">
+            <button class="openbtn" onclick="openNav()">
+                ☰</button> <!--сменил логотип img-->
         </nav>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "500px";
+          document.getElementById("main").style.marginLeft = "500px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+    </div>
+ 
+    
         <div class="header__logo">
             <a href="file:///C:/Users/ramon/OneDrive/Рабочий%20стол/napistore/index.html">
             <img src="img4/Group 58 (2).png" alt="logo">

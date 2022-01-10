@@ -1,5 +1,5 @@
 html, body{
-    position: relative;
+    position: absolute;
     width: 1920px;
     height: 1080px;
     background:url("/page4/img4/image\ 36.jpg");
@@ -26,14 +26,49 @@ html, body{
      rgba(0, 0, 0, 0.6) 63.22%, rgba(0, 0, 0, 0.1) 
      88.58%, rgba(0, 0, 0, 0) 100%);
   }
+  
   .header__menu {
-  position: absolute;
+  position: fixed;
   width: 30px;
   height: 30px;
   margin-left: 100px;
   margin-top: 55px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
   }
-  
+  /*
+.openbtn {
+position: relative;;
+width: 30px;
+height: 30px;
+left: 80px;
+top: 35px;
+font-size: 20px;
+cursor: pointer;
+background-color: rgb(252, 252, 252);
+color: rgb(158, 152, 152);
+padding: 10px 15px;
+border: none;
+}
+
+.openbtn:hover {
+  background-color: rgb(252, 252, 252);
+}
+
+#main {
+  transition: margin-left .2s;
+  padding: 16px;
+}
+*/
+/*На небольших экранах, где высота меньше 450px, 
+измените стиль sidenav (меньше отступов и меньший размер шрифта)*/
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
   .header__logo {
       position: absolute;
       width: 242px;
@@ -80,4 +115,48 @@ color: #FFFFFF;
     height: 50px;
     left: 1720px;
     top: 58px;
+  }
+
+
+
+  .sidebar {
+    height: 1080px;
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.12);
+  }
+    /*
+  style="position: relative; 
+  width: 500px;
+height: 1080px; background: #FFFFFF;
+box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.12);"*/
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #070000;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #140000;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
   }
